@@ -81,9 +81,9 @@ private:
 
   // Range for sensor.
   double sensor_range_;
-
-	// Whether the filter is initialized.
-	bool initialized_;
+  
+  // Whether the filter is initialized.
+  bool initialized_ = false;
 };
 
 
